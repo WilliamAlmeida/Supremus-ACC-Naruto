@@ -1,0 +1,47 @@
+<?php
+
+class PagseguroTransacao extends \Eloquent {
+
+	protected $table = 'pagsegurotransacoes';
+	public $timestamps = false;
+
+	// Add your validation rules here
+	public static $rules = array(
+		'TransacaoID' => array('required','min:0','max:255'),
+		'VendedorEmail' => array('required','min:0','max:200'),
+		'Referencia' => array('min:0','max:200'),
+		'TipoFrete' => array('min:0','max:2'),
+		'ValorFrete' => array('min:0'),
+		'Extras' => array('min:0'),
+		'Anotacao' => array('min:0'),
+		'TipoPagamento' => array('required','min:0','max:50'),
+		'StatusTransacao' => array('required','min:0','max:50'),
+		'CliNome' => array('required','min:0','max:200'),
+		'CliEmail' => array('required','min:0','max:200'),
+		'CliEndereco' => array('required','min:0','max:200'),
+		'CliNumero' => array('min:0','max:10'),
+		'CliComplemento' => array('min:0','max:100'),
+		'CliBairro' => array('required','min:0','max:100'),
+		'CliCidade' => array('required','min:0','max:100'),
+		'CliEstado' => array('required','min:2','max:3'),
+		'CliCEP' => array('required','min:0','max:10'),
+		'CliTelefone' => array('min:0','max:15'),
+		'NumItens' => array('required','min:0','numeric'),
+		'Data' => array('required','min:0'),
+		'status' => array('required','min:0','numeric')
+		);
+
+	// Don't forget to fill this array
+	protected $fillable = array('TransacaoID', 'VendedorEmail', 'Referencia', 'TipoFrete', 'ValorFrete', 'Extras', 'Anotacao', 'TipoPagamento', 'StatusTransacao', 'CliNome', 'CliEmail', 'CliEndereco', 'CliNumero', 'CliComplemento', 'CliBairro', 'CliCidade', 'CliEstado', 'CliCEP', 'CliTelefone', 'NumItens', 'Data', 'status');
+
+    public function user()
+    {
+    	return $this->belongsTo('User', 'Anotacao', 'id');
+    }
+
+    public function shopdonationhistory()
+    {
+        return $this->belongsTo('ShopDonationHistory', 'TransacaoID', 'transacaoID');
+    }
+
+}

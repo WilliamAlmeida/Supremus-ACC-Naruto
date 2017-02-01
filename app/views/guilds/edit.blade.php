@@ -1,0 +1,1 @@
+C:\wamp\www\pokemon\app/views/Guilds/edit.blade.php

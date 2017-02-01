@@ -1,0 +1,233 @@
+body {
+	background-image: url('../img/background.jpg');
+	background-color: #ffd192;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-position: top center;
+	background-size: cover;
+	/*padding-top: 70px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.rows {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+@media (max-width: 992px){
+	#thumbnails-paginas {
+		text-align: center;
+		margin-top: 5px;
+	}
+	#thumbnails-paginas > li {
+		display: inline-block;
+	}
+}
+
+#view {
+	padding: 2px;
+	border: solid 1px #333;
+}
+
+#thumbnails-paginas img {
+	width: 100px;
+	padding: 2px;
+	border: solid 1px transparent;
+}
+
+#thumbnails-paginas img:hover {
+	opacity: 0.5;
+	border-color: #333;
+}
+
+.informacoes-produtos,
+.caracteristicas-produtos,
+.categorias-produtos,
+.ratings-produtos {
+}
+
+.caracteristicas-produtos > table > tbody > tr > th {
+	width: 200px;
+}
+
+.label {
+	display: inline-block;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+/********************* Header Area **********************/
+
+header {
+	/*background-image: url('../img/bg_icons.png');*/
+	background-color: transparent;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 50px;
+	min-height: 50px;
+	max-height: 294px;
+}
+
+header img {
+	margin: 10px 10px 10px 10%;
+}
+
+
+/********************* Navbar #Navegação Principal Area **********************/
+
+.navbar-default {
+	border-color: transparent;
+	border-radius: 0px;
+	background: rgb(147, 198, 255);
+	/* Old Browsers */
+	/*background: -moz-linear-gradient(top, rgba(0,85,125,1) 0%, rgba(0,118,154,1) 50%, rgba(0,103,147,1) 51%, rgba(0,171,209,1) 100%);*/
+	/* FF3.6+ */
+	/*background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,85,125,1)), color-stop(50%, rgba(0,118,154,1)), color-stop(51%, rgba(0,103,147,1)), color-stop(100%, rgba(0,171,209,1)));*/
+	/* Chrome, Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(0,85,125,1) 0%, rgba(0,118,154,1) 50%, rgba(0,103,147,1) 51%, rgba(0,171,209,1) 100%);*/
+	/* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(0,85,125,1) 0%, rgba(0,118,154,1) 50%, rgba(0,103,147,1) 51%, rgba(0,171,209,1) 100%);*/
+	/* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(0,85,125,1) 0%, rgba(0,118,154,1) 50%, rgba(0,103,147,1) 51%, rgba(0,171,209,1) 100%);*/
+	/* IE 10+ */
+	/*background: linear-gradient(to bottom, rgba(0,85,125,1) 0%, rgba(0,118,154,1) 50%, rgba(0,103,147,1) 51%, rgba(0,171,209,1) 100%);*/
+	/* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00557d', endColorstr='#00abd1', GradientType=0 );*/
+	/* IE6-9 */
+}
+
+@media (min-width: 768px) {
+	.navbar-default {
+		border-color: #0a3a8e;
+		margin-left: 7.8%;
+		margin-right: 7.8%;
+	}
+}
+
+.navbar-fixed-top {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #0a3a8e;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #f9b401;
+	background-color: transparent;
+	-webkit-transition: color .3s ease-out;
+	-moz-transition:    color .3s ease-out;
+	-o-transition:      color .3s ease-out;
+	transition:         color .3s ease-out;
+}
+.navbar-default .navbar-toggle {
+	border-color: #0C4E6D;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: rgba(26,98,132,0.5);
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FAD314;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #fff;
+	background: rgba(138,186,239,1.0);
+	/* Old Browsers */
+	/*background: -moz-linear-gradient(top, rgba(0,107,179,1) 0%, rgba(0,144,205,1) 50%, rgba(0,126,172,1) 51%, rgba(0,213,250,1) 100%);*/
+	/* FF3.6+ */
+	/*background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,107,179,1)), color-stop(50%, rgba(0,144,205,1)), color-stop(51%, rgba(0,126,172,1)), color-stop(100%, rgba(0,213,250,1)));*/
+	/* Chrome, Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(0,107,179,1) 0%, rgba(0,144,205,1) 50%, rgba(0,126,172,1) 51%, rgba(0,213,250,1) 100%);*/
+	/* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(0,107,179,1) 0%, rgba(0,144,205,1) 50%, rgba(0,126,172,1) 51%, rgba(0,213,250,1) 100%);*/
+	/* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(0,107,179,1) 0%, rgba(0,144,205,1) 50%, rgba(0,126,172,1) 51%, rgba(0,213,250,1) 100%);*/
+	/* IE 10+ */
+	/*background: linear-gradient(to bottom, rgba(0,107,179,1) 0%, rgba(0,144,205,1) 50%, rgba(0,126,172,1) 51%, rgba(0,213,250,1) 100%);*/
+	/* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006bb3', endColorstr='#00d5fa', GradientType=0 );*/
+	/* IE6-9 */
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #333333;
+		background-color: rgb(255, 255, 255);
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #333333;
+		background-color: rgb(245, 245, 245);
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		/*color: #555;*/
+		background-color: #e7e7e7;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+		/*color: #ccc;*/
+		background-color: transparent;
+	}
+	.dropdown-menu .divider {
+		margin: 0px;
+	}
+	.dropdown-menu {
+		padding-top: 0px;
+	}
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+		border-bottom: 1px solid #fff;
+	}
+}
+
+/********************* Section #Body Area **********************/
+
+section#body div.conteudo {
+	overflow: hidden;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: solid 1px rgb(10, 58, 142);
+}
+
+section#body .titulo {
+	color: #333;
+	background-color: rgb(147, 198, 255);
+	border-bottom: solid 2px rgb(10, 58, 142);
+	border-bottom-style: dashed;
+}
+
+/********************* Footer Area **********************/
+
+footer {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #CCCCCC;
+	background-color: #333333;
+}
+
+.foNW {
+	color: #f9b401 !important;
+	text-shadow: 2px 2px 0px #535653 !important;
+}
+
+a.foNW:hover {
+	color: rgb(255,236,142) !important;
+	text-shadow: 2px 2px 0px rgb(150, 150, 150) !important;
+}
+
+.bg-green-life {
+	background-color: rgb(0,255,144) !important;
+}

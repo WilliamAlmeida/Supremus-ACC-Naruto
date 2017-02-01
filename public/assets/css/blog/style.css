@@ -1,0 +1,165 @@
+body {
+	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/*********************
+	 Container Area
+**********************/
+
+/*********************
+	 Gallery Section
+**********************/
+
+@media (max-width: 992px){
+	#thumbnails-noticias {
+		text-align: center;
+		margin-top: 5px;
+	}
+	#thumbnails-noticias > li {
+		display: inline-block;
+	}
+}
+
+#view {
+	padding: 2px;
+	border: solid 1px #333;
+}
+
+#thumbnails-noticias img {
+	width: 100px;
+	padding: 2px;
+	border: solid 1px transparent;
+}
+
+#thumbnails-noticias img:hover {
+	opacity: 0.5;
+	border-color: #333;
+}
+
+/*********************
+	 SideBar Area
+**********************/
+
+/*********************
+	 Category Section
+**********************/
+
+.categoria .nav > li > a {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.categoria .nav > li > a:hover,
+.categoria .nav > li > a:focus {
+	font-weight: bold;
+	background-color: #eee;
+}
+
+/*********************
+	 Marketing Area
+**********************/
+.marketing {
+  color:#5A5A5A;
+}
+
+.marketing h1 {
+  font-size:50px;
+  font-weight:200;
+  letter-spacing:-1px;
+  line-height:1;
+  margin:10px 0 10px;
+}
+
+.marketing h2 {
+  font-weight:200;
+  margin-bottom:5px;
+}
+
+.marketing .marketing-byline {
+  color:#999999;
+  font-size:20px;
+  font-weight:300;
+  line-height:1.25;
+  margin-bottom:40px;
+}
+
+.marketing p {
+  font-size:16px;
+  line-height:1.5;
+}
+
+.marketing img {
+	margin: 5px auto;
+}
+
+/***********************
+	 Cloud Tags 
+************************/
+ul.tagcloud {
+	line-height:1.8;
+	list-style:none;
+	margin:0;
+	padding:0.5em;
+	text-align:justify;
+}
+
+ul.tagcloud li {
+	display:inline;
+}
+
+ul.tagcloud a {
+  color:#787870;
+  margin-right:0.2em;
+  text-decoration:none;
+  line-height: 1.3em;
+}
+
+.tag1 {
+	font-size: 80%;
+}
+
+.tag2 {
+	font-size: 100%;	
+}
+
+.tag3 {
+	font-size: 125%;
+}
+
+.tag4 {
+	font-size: 150%;
+}
+
+.tag5 {
+	font-size: 175%;
+}
+
+.tag6 {
+	font-size: 200%;
+}
+
+.tag7 {
+	font-size: 225%;
+}
+
+.tag8 {
+	font-size: 250%;
+}
+
+.tag9 {
+	font-size: 275%;
+}
+
+.tag10 {
+	font-size: 200%;
+}
+
+/*********************
+	 Footer Area
+**********************/
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #CCCCCC;
+	background-color: #333333;
+}
