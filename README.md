@@ -59,4 +59,7 @@ Após ter feito isso, entre em seu site utilizando o seguinte endereço:<br>
 <br>
 É por está pagina que você ira dar inicio a configuração do seu banco de dados, ao clicar no botão "Configurar Banco de Dados" você ira criar Tabelas que o Sistema Supremus ira precisar.<br>
 <br>
-Mas fique tranquilo, você não ira perde nenhuma informação de seus jogadores, nem sua estrutura será danificada.</p>
+Mas fique tranquilo, você não ira perde nenhuma informação de seus jogadores, nem sua estrutura será danificada.<br>
+<br>
+<b>Lembrando é importante que remova a Rota ou Desative as funções deste Controller para que ninguem possar acessar mais este endereço podendo assim danificar seu banco de dados utilizando alguma das outras opções que contem nesta página.</b>
+</p>
