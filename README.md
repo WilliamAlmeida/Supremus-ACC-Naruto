@@ -55,7 +55,7 @@ Va na pasta "app\config" e abra o arquivo "database.php" e preenche com as infor
 <br>
 Após ter feito isso, entre em seu site utilizando o seguinte endereço:<br>
 <br>
-www.meusite.com"/sistema/integracao"<br>
+"www.meusite.com/sistema/integracao"<br>
 <br>
 É por está pagina que você ira dar inicio a configuração do seu banco de dados, ao clicar no botão "Configurar Banco de Dados" você ira criar Tabelas que o Sistema Supremus ira precisar.<br>
 <br>
